@@ -85,7 +85,7 @@ let wrapAllSides = true
 let campaignFrame = 'bleed' // 100% full cover
 let brandHeaderText = 'PREMIUM WATER CARTON'
 let brandFooterText = '05 SIPVERTISE · IN EVERY HAND'
-let brandContactText = '+91 8281936307 · hello@sipvertise.com'
+let brandContactText = '+91 8281936307 · getsipvertise@gmail.com'
 let currentActiveSample = 'coffee'
 let bottleModel = 'carton' // 'carton' or 'bottle'
 
@@ -683,7 +683,7 @@ function drawSipvertiseCartonFace(ctx, face) {
     ctx.fillText('SCAN TO ADVERTISE', W / 2, bQrY + bQrS + 30)
     ctx.font = '500 16px monospace'
     ctx.fillStyle = 'rgba(255, 255, 255, 0.8)'
-    ctx.fillText('www.sipvertise.com · +91 8281936307', W / 2, bQrY + bQrS + 55)
+    ctx.fillText('www.sipvertise.in · +91 8281936307', W / 2, bQrY + bQrS + 55)
     ctx.restore()
   }
 }
@@ -1924,7 +1924,7 @@ function redrawCylinderTexture() {
     ctx.fillText('SCAN TO CONNECT', W - 90, 445)
     ctx.font = '500 14px monospace'
     ctx.fillStyle = 'rgba(255,255,255,0.7)'
-    ctx.fillText('sipvertise.com', W - 90, 470)
+    ctx.fillText('sipvertise.in', W - 90, 470)
     ctx.restore()
   }
 

@@ -293,7 +293,7 @@ export function initCampaignForm(form) {
             statusEl.textContent = err.message || 'Validation failed. Please verify required fields.'
           }
         } else if (err.status === 500) {
-          statusEl.textContent = 'Server error (HTTP 500): We encountered an issue processing your campaign. Please try again shortly or contact Hello@sipvertise.com.'
+          statusEl.textContent = 'Server error (HTTP 500): We encountered an issue processing your campaign. Please try again shortly or contact getsipvertise@gmail.com.'
         } else if (!err.status || err.name === 'TypeError' || err.message?.includes('Failed to fetch') || err.message?.includes('NetworkError')) {
           statusEl.textContent = 'Network error: Unable to connect to the backend server. Please verify your connection or check that the backend is running.'
         } else {
