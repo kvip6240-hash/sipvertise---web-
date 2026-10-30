@@ -5208,8 +5208,8 @@ body.studio-page-body {
   border-bottom: 1px solid rgba(255, 255, 255, 0.08);
   display: flex;
   align-items: center;
-  justify-content: space-between;
-  gap: 16px;
+  justify-content: flex-start;
+  gap: 24px;
 }
 
 .admin-eyebrow {
@@ -5586,9 +5586,11 @@ body.studio-page-body {
     left: 7vw;
     right: 7vw;
     bottom: 22px;
-    flex-direction: column;
+    flex-direction: row;
     align-items: flex-start;
-    gap: 6px;
+    flex-wrap: wrap;
+    column-gap: 18px;
+    row-gap: 6px;
     padding-top: 14px;
   }
 }
