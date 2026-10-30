@@ -5552,9 +5552,9 @@ body.studio-page-body {
   right: 6.5vw;
   bottom: 24px;
   display: flex;
-  align-items: center;
-  justify-content: flex-start;
-  gap: 24px;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 6px;
   border-top: 1px solid rgba(255, 255, 255, 0.08);
   padding-top: 16px;
   z-index: 2;
@@ -5586,11 +5586,8 @@ body.studio-page-body {
     left: 7vw;
     right: 7vw;
     bottom: 22px;
-    flex-direction: row;
-    align-items: flex-start;
-    flex-wrap: wrap;
-    column-gap: 18px;
-    row-gap: 6px;
+    flex-direction: column;
+    gap: 6px;
     padding-top: 14px;
   }
 }
