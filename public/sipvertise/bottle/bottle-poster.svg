@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 1000">
+  <defs>
+    <linearGradient id="bottle" x1="0" x2="1">
+      <stop stop-color="#b9e8ed" stop-opacity=".58"/>
+      <stop offset=".22" stop-color="#fff" stop-opacity=".8"/>
+      <stop offset=".78" stop-color="#f7ffff" stop-opacity=".5"/>
+      <stop offset="1" stop-color="#70bac9" stop-opacity=".62"/>
+    </linearGradient>
+    <linearGradient id="cap" x1="0" x2="1">
+      <stop stop-color="#173c64"/>
+      <stop offset=".5" stop-color="#07182e"/>
+      <stop offset="1" stop-color="#214873"/>
+    </linearGradient>
+    <clipPath id="shape">
+      <path d="M190 91h120v65q0 28 40 49 66 34 74 105l15 510q2 50-47 64-142 40-284 0-49-14-47-64l15-510q8-71 74-105 40-21 40-49z"/>
+    </clipPath>
+  </defs>
+  <ellipse cx="250" cy="929" rx="170" ry="34" fill="#06122b" opacity=".12"/>
+  <rect x="190" y="27" width="120" height="92" rx="20" fill="url(#cap)"/>
+  <path d="M202 43v48m16-48v48m16-48v48m16-48v48m16-48v48m16-48v48m16-48v48m16-48v48" stroke="#8ca3b5" stroke-opacity=".3" stroke-width="3"/>
+  <path d="M190 91h120v65q0 28 40 49 66 34 74 105l15 510q2 50-47 64-142 40-284 0-49-14-47-64l15-510q8-71 74-105 40-21 40-49z" fill="url(#bottle)" stroke="#d8f5f7" stroke-width="8"/>
+  <g clip-path="url(#shape)">
+    <path d="M32 412h436v352q-72-30-134 8-55 35-116 0-87-50-186 10z" fill="#06122b"/>
+    <circle cx="395" cy="505" r="120" fill="#ffe300"/>
+    <path d="M20 735q94-44 185 5 75 40 151 0 66-36 145-4v183H20z" fill="#f5f2e9"/>
+    <path d="M22 817q91-34 173 8 86 44 166 0 59-32 140-5v104H22z" fill="#06122b"/>
+    <path d="M85 180q28 200 13 560" fill="none" stroke="#fff" stroke-opacity=".36" stroke-width="28"/>
+    <path d="M390 185q-14 180-2 620" fill="none" stroke="#045bb0" stroke-opacity=".18" stroke-width="22"/>
+  </g>
+</svg>
