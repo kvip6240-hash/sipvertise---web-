@@ -5551,9 +5551,10 @@ body.studio-page-body {
   left: 6.5vw;
   right: 6.5vw;
   bottom: 24px;
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
+  display: flex !important;
+  flex-direction: column !important;
+  align-items: flex-start !important;
+  justify-content: flex-start !important;
   gap: 6px;
   border-top: 1px solid rgba(255, 255, 255, 0.08);
   padding-top: 16px;
@@ -5586,7 +5587,7 @@ body.studio-page-body {
     left: 7vw;
     right: 7vw;
     bottom: 22px;
-    flex-direction: column;
+    flex-direction: column !important;
     gap: 6px;
     padding-top: 14px;
   }
