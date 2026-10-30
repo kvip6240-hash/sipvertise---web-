@@ -5539,5 +5539,60 @@ body.studio-page-body {
   white-space: nowrap;
 }
 
+/* ──────────────────────────────────────────────────────────────────────────
+   FOOTER BOTTOM BAR: COPYRIGHT & DEVELOPER CREDIT
+   ────────────────────────────────────────────────────────────────────────── */
+.footer {
+  padding-bottom: 84px !important;
+}
+
+.footer-bottom-bar {
+  position: absolute;
+  left: 6.5vw;
+  right: 6.5vw;
+  bottom: 24px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 16px;
+  border-top: 1px solid rgba(255, 255, 255, 0.08);
+  padding-top: 16px;
+  z-index: 2;
+}
+
+.footer-bottom-bar p {
+  margin: 0 !important;
+  font-size: 11px !important;
+  color: #7b889b !important;
+  letter-spacing: 0.03em;
+  line-height: 1.4;
+}
+
+.footer-copyright {
+  font-weight: 500;
+}
+
+.footer-dev-by {
+  font-weight: 500;
+  color: #94a3b8 !important;
+}
+
+@media (max-width: 760px) {
+  .footer {
+    padding-bottom: 96px !important;
+  }
+
+  .footer-bottom-bar {
+    left: 7vw;
+    right: 7vw;
+    bottom: 22px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 6px;
+    padding-top: 14px;
+  }
+}
+
+
 
 
